@@ -20,3 +20,7 @@ Cyber Threat Intelligence OSINT focuses on collecting and analysing publicly ava
 | Malpedia                     | [Find out more](../osint-tools/malpedia.md)                     |
 | VirusTotal                   | [Find out more](../osint-tools/virustotal.md)                   |
 | Pulsedive                    | [Find out more](../osint-tools/pulsedive.md)                    |
+| Codename Sonar               | [Find out more](../osint-tools/codename-sonar.md)               |
+| Filesec.io                   | [Find out more](../osint-tools/filesec.io.md)                   |
+| Alien Vault OTX              | [Find out more](../osint-tools/alien-vault-otx.md)              |
+| ANY.RUN                      | [Find out more](../osint-tools/any.run.md)                      |

@@ -25,5 +25,7 @@ Image & Video Analysis OSINT focuses on examining photos and videos to uncover d
 | Deepware                           | [Find out more](../osint-tools/deepware.md)                         |
 | Reverse Image Location (GeoSolver) | [Find out more](../osint-tools/reverse-image-location-geosolver.md) |
 | ImgOps                             | [Find out more](../osint-tools/imgops.md)                           |
-|                                    |                                                                     |
+| C2PA Lab                           | [Find out more](../osint-tools/c2pa-lab.md)                         |
+| Metadata Remover                   | [Find out more](../osint-tools/metadata-remover.md)                 |
+| Channel Timeline                   | [Find out more](../osint-tools/channel-timeline.md)                 |
 

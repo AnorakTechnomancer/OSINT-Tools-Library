@@ -23,3 +23,4 @@ Network & Infrastructure OSINT focuses on discovering, indexing, and analyzing i
 | Blacklist Alert | [Find out more](../osint-tools/blacklist-alert.md) |
 | BotScout        | [Find out more](../osint-tools/botscout.md)        |
 | PublicWWW       | [Find out more](../osint-tools/publicwww.md)       |
+| Codename Sonar  | [Find out more](../osint-tools/codename-sonar.md)  |

@@ -17,4 +17,5 @@ Domain Name OSINT focuses on researching websites and their domain registrations
 | ARIN                   | [Find out more](../osint-tools/arin.md)                   |
 | Whoisology             | [Find out more](../osint-tools/whoisology.md)             |
 | Blacklist Alert        | [Find out more](../osint-tools/blacklist-alert.md)        |
-| Indica                 | [Find out more](../osint-tools/indicia.md)                |
+| Indicia                | [Find out more](../osint-tools/indicia.md)                |
+| Postcard TUI           | [Find out more](../osint-tools/postcard-tui.md)           |

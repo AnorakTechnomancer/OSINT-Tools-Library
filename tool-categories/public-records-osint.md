@@ -30,3 +30,5 @@ Public Records OSINT focuses on gathering information from Government and offici
 | BIS Data Portal                                   | [Find out more](../osint-tools/bis-data-portal.md)                    |
 | Free Full PDF                                     | [Find out more](../osint-tools/free-full-pdf.md)                      |
 | Wikispooks                                        | [Find out more](../osint-tools/wikispooks.md)                         |
+| City Protect (US)                                 | [Find out more](../osint-tools/city-protect.md)                       |
+| Registry Lookup                                   | [Find out more](../osint-tools/registry-lookup.md)                    |

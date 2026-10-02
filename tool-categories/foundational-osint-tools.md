@@ -24,3 +24,4 @@ Foundational OSINT tools support tasks such as search, archiving, data analysis 
 | Palette by OSINT Industries   | [Find out more](../osint-tools/palette.md)                       |
 | EarthPoint Convert            | [Find out more](../osint-tools/earthpoint-convert.md)            |
 | Excite Web Search             | [Find out more](../osint-tools/excite-web-search.md)             |
+| Europlates                    | [Find out more](../osint-tools/europlates.md)                    |

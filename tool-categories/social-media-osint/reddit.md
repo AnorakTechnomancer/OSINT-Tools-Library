@@ -7,4 +7,5 @@
 | Subreddit Stats             | [Find out more](../../osint-tools/subreddit-stats.md)            |
 | Aware Online: Reddit Search | [Find out more](../../osint-tools/aware-online-reddit-search.md) |
 | Arctic Shift                | [Find out more](../../osint-tools/arctic-shift.md)               |
+| THINKPOL Reddit Search      | [Find out more](../../osint-tools/thinkpol-reddit-search.md)     |
 

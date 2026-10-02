@@ -25,3 +25,4 @@ Transport OSINT focuses on gathering information about vehicles, shipping, aircr
 | Live Train Tracker          | [Find out more](../osint-tools/live-train-tracker.md)          |
 | Track-Trace                 | [Find out more](../osint-tools/track-trace.md)                 |
 | OpenRailwayMap              | [Find out more](../osint-tools/openrailwaymap.md)              |
+| Europlates                  | [Find out more](../osint-tools/europlates.md)                  |
