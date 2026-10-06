@@ -1,7 +1,34 @@
 ---
 description: >-
-  Tool Description : A free web-based geolocation tool that visualises the
-  position of the sun and shadows for any location, date, and time.
+  Tool Description : A free web-based geolocation tool that visualises the position of the sun and shadows for any location, date, and time.
+tool:
+  name: SunCalc
+  url: https://www.suncalc.org/
+  status: active
+  categories:
+    - geolocation
+  inputs:
+    - location
+    - date
+    - time
+  capabilities:
+    - sun-position
+    - sunrise-sunset
+    - shadow-direction
+    - chronolocation
+  pricing:
+    model: free
+    free_tier: Full web tool.
+    paid_unlocks: []
+    price: free
+  account_required: no
+  access_methods:
+    - online-web
+  implementation:
+    - hosted-service
+  open_source: false
+  geographic_scope: global
+  last_verified: 2026-10-06
 ---
 
 # SunCalc
