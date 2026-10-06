@@ -1,87 +1,112 @@
 ---
 description: >-
-  Our OSINT Tool Template - head to our Submission Guide below to find out how
-  to submit a new tool to our OSINT Tools Library or update/amend an existing
-  one.
+  Standard template for adding or updating an OSINT tool in the library.
+tool:
+  name: Tool Name
+  url: https://example.com/
+  status: unknown
+  categories:
+    - category-name
+  inputs:
+    - input-type
+  capabilities:
+    - capability
+  pricing:
+    model: unknown
+    free_tier: Describe exactly what is available without paying.
+    paid_unlocks:
+      - Describe the important capabilities that require payment.
+    price: unknown
+  account_required: optional
+  platform:
+    - web
+  open_source: false
+  geographic_scope: global
+  last_verified: YYYY-MM-DD
 ---
 
-# Tool Template
+# Tool Name
 
-[Go to our Submission Guide](../submission-guide.md)
+> **At a glance:** One sentence explaining why an investigator would choose this tool.
 
-### Tool Template
-
-Tool Description: What problem does this tool solve? Example: This tool helps estimate sunlight and shadow position for a given location and time, supporting chronolocation and scene reconstruction.
-
-| **Tool Name**    | **Quick Overview** |
-| ---------------- | ------------------ |
-| URL              | <p><br></p>        |
-| What it does     | <p><br></p>        |
-| How to use it    | <p><br></p>        |
-| Cost             | <p><br></p>        |
-| Account required | <p><br></p>        |
-| Cookies          | <p><br></p>        |
-| Ownership        | <p><br></p>        |
-| Use in Reporting | <p><br></p>        |
+| **Tool Name** | **Quick Overview** |
+| --- | --- |
+| URL | https://example.com/ |
+| Best for | The primary investigative task this tool solves. |
+| Inputs | Email, phone number, username, image, domain, etc. |
+| Outputs | Linked accounts, breach data, metadata, locations, records, etc. |
+| Cost | Free / Freemium / Paid / Enterprise |
+| Free access | Describe exactly what works without payment. |
+| Paid unlocks | Describe the meaningful features behind payment. |
+| Account required | No / Yes / Optional / Third-party account |
+| Platform | Web / CLI / API / browser extension / mobile |
+| Open source | Yes / No |
+| Geographic scope | Global / country / region |
+| Last verified | YYYY-MM-DD |
 
 ### What does the Tool Do?
 
-Description of what the tool does in detail.
+Describe what the tool does and what problem it solves. Focus on investigator outcomes rather than marketing language.
 
-### How to Use:
+### How to Use
 
-Include step-by-step or add OSINT Newsletter's Issue URL [https://osintnewsletter.com/p/telegram-phone-number-checker](https://osintnewsletter.com/p/telegram-phone-number-checker)
+Provide concise steps or link to a maintained guide.
 
-### Cost
+### Pricing and Access
 
-* [ ] Free
-* [ ] Partially Free
-* [ ] Paid
+Do not stop at “freemium.” Document:
 
-## Data Processing
+- what can be done for free;
+- important limits on the free tier;
+- what payment unlocks;
+- published pricing when available;
+- whether pricing requires contacting sales.
 
-### Account Required:
+### Data Processing
 
-* [ ] Yes
-* [ ] No
+#### Account Required
 
-### Cookies:&#x20;
+Explain whether the tool requires its own account, a third-party account, authentication cookies, or API credentials.
 
-Summarise what cookies the tool uses what this means for analysts.
+#### Cookies / Authentication
+
+Summarise relevant cookies, tokens, or authentication requirements and what they mean for analysts.
 
 ### Use in Reporting
 
-Detail uses in reporting/investigations and link to any real-world examples.<br>
+Explain where the tool fits in an investigation and what findings should be independently verified.
 
-
-
-|                  |                 |
-| ---------------- | --------------- |
 | **Capabilities** | **Limitations** |
-|                  |                 |
-|                  |                 |
-|                  |                 |
+| --- | --- |
+| Capability | Limitation |
+| Capability | Limitation |
 
 ### Summary
 
-Summarise the pros and cons of the tool and which part of the OSINT workflow it's most useful for.
-
-
+Summarise the strongest use cases, tradeoffs, and where the tool fits in an OSINT workflow.
 
 ### Ownership
 
-Explain who owns the tool (person/company) where they're from, where they're based, and any other useful information.&#x20;
-
-
+Explain who owns or maintains the tool and any context relevant to trust, jurisdiction, or conflicts of interest.
 
 ### Ethical Considerations
 
-Include bullet points of the ethical considerations for utilising this particular tool e.g. consider privacy and potential harm when sharing personal data.
+- Use tools lawfully and within authorisation.
+- Verify findings before attribution or publication.
+- Minimise unnecessary collection or exposure of personal data.
+- Add tool-specific considerations here.
 
-### Related Tools:
+### Related Tools
 
-Include bullet points of similar OSINT tools.
+- Similar tool
 
 #### Sources
 
-Paste your source URLs here.&#x20;
+- Primary tool URL
+- Pricing/access source
+- Documentation or repository
+- Other authoritative sources
+
+---
+
+See [Tool Metadata Standard](../docs/tool-metadata-standard.md) for the normalized fields used by category pages and future filtering.
