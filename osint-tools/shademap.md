@@ -1,7 +1,34 @@
 ---
 description: >-
   Tool Description : Web-based mapping tool that models and visualises sunlight
-  and shade for any location in the world at a specific date and time.
+tool:
+  name: ShadeMap
+  url: https://shademap.app/
+  status: active
+  categories:
+    - geolocation
+  inputs:
+    - location
+    - date
+    - time
+  capabilities:
+    - shadow-simulation
+    - sun-position
+    - chronolocation
+  pricing:
+    model: freemium
+    free_tier: Basic interactive shadow modelling.
+    paid_unlocks: 
+      - additional or premium features
+    price: unknown
+  account_required: optional
+  access_methods:
+    - online-web
+  implementation:
+    - hosted-service
+  open_source: false
+  geographic_scope: global
+  last_verified: 2026-10-06
 ---
 
 # ShadeMap
