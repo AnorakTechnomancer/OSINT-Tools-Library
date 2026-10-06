@@ -33,8 +33,10 @@ tool:
       - additional platform data
     price: unknown
   account_required: optional
-  platform:
-    - web
+  access_methods:
+    - online-web
+  implementation:
+    - hosted-service
   open_source: false
   geographic_scope: global
   last_verified: 2026-10-06
@@ -76,24 +78,41 @@ Use one of:
 - `discontinued`
 - `unknown`
 
-### Platform
+### Access method
 
-Common values:
+Use one or more values so investigators can tell whether a tool opens directly in a browser or needs local installation:
 
-- `web`
-- `cli`
-- `desktop`
-- `browser-extension`
-- `api`
-- `mobile`
+- `online-web` — accessible as a hosted website/web application
+- `cli` — command-line program
+- `python-script` — Python script or Python-first package intended to be run locally
+- `desktop-app` — installed graphical desktop application
+- `browser-extension` — browser add-on
+- `mobile-app` — installed mobile application
+- `api` — directly usable through an API
+
+A tool may have multiple access methods. For example, a project can provide both an online web interface and an API.
+
+### Implementation
+
+Use this separately from access method when useful. Common values include:
+
+- `hosted-service`
+- `python`
+- `javascript`
+- `go`
+- `rust`
+- `native-app`
+- `unknown`
+
+This prevents ambiguous labels such as “CLI” from hiding whether the downloadable tool is actually a Python script/package or a compiled executable.
 
 ## Category-page display
 
 Category pages should expose the information needed to choose a tool without opening every entry:
 
-| Tool | Best for | Inputs | Cost | What is free? | Account |
-| ---- | -------- | ------ | ---- | ------------- | ------- |
-| Example | Short investigative use case | Email, phone | Freemium | Basic lookup | Optional |
+| Tool | Best for | Access | Inputs | Cost | What is free? | Account |
+| ---- | -------- | ------ | ------ | ---- | ------------- | ------- |
+| Example | Short investigative use case | Online/Web | Email, phone | Freemium | Basic lookup | Optional |
 
 The full tool page remains the place for instructions, screenshots, limitations, ownership, ethical considerations, and sources.
 
@@ -110,4 +129,6 @@ A user should be able to answer these questions from a category page:
 3. Can I use it for free?
 4. If not, what requires payment?
 5. Do I need an account?
-6. Is the tool currently usable?
+6. Can I use it online, or do I need to install/run something locally?
+7. If local, is it a CLI, Python script/package, desktop app, or something else?
+8. Is the tool currently usable?
