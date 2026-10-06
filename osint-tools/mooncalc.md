@@ -1,7 +1,34 @@
 ---
 description: >-
   Tool Description : A free web-based lunar positioning tool that visualises the
-  position, phase and illumination of the moon for any location, date and time.
+tool:
+  name: MoonCalc
+  url: https://www.mooncalc.org/
+  status: active
+  categories:
+    - geolocation
+  inputs:
+    - location
+    - date
+    - time
+  capabilities:
+    - moon-position
+    - moon-phase
+    - rise-set
+    - chronolocation
+  pricing:
+    model: free
+    free_tier: Full web tool.
+    paid_unlocks: []
+    price: free
+  account_required: no
+  access_methods:
+    - online-web
+  implementation:
+    - hosted-service
+  open_source: false
+  geographic_scope: global
+  last_verified: 2026-10-06
 ---
 
 # MoonCalc
