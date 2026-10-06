@@ -339,3 +339,5 @@
   * [Dune](osint-tools/dune.md)
   * [Filmot](osint-tools/filmot.md)
 * [Submission Guide](submission-guide.md)
+
+* [Tool Metadata Standard](docs/tool-metadata-standard.md)
