@@ -1,10 +1,37 @@
 ---
-description: >-
-  Tool Description: File-sharing search engine for locating publicly
-  indexed/shared files across multiple hosting services.
+description: Discovering files on third-party hosting services.
+tool:
+  name: SearchShared
+  url: https://www.searchshared.info/
+  status: unknown
+  categories:
+  - archiving
+  inputs:
+  - keyword
+  - filename
+  capabilities:
+  - shared-file-search
+  pricing:
+    model: free
+    free_tier: Basic search; destination host restrictions apply.
+    paid_unlocks: []
+    price: unknown
+  account_required: 'no'
+  access_methods:
+  - online-web
+  implementation:
+  - hosted-service
+  open_source: unknown
+  geographic_scope: global
+  last_verified: null
+  metadata_reviewed: '2026-10-06'
+  verification_notes: Migrated from existing library text; current vendor pricing,
+    limits and live status have not been independently verified.
 ---
 
 # SearchShared
+
+> **Verification pending:** Structured details below were migrated from the existing writeup. Current pricing, limits and service status need vendor verification.
 
 | **Tool name**    | **Quick Overview**                                                                                               |
 | ---------------- | ---------------------------------------------------------------------------------------------------------------- |

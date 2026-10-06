@@ -1,10 +1,37 @@
 ---
-description: >-
-  Tool Description : A web archiving tool that lets you view past versions of
-  websites.
+description: Past versions of websites and deleted pages.
+tool:
+  name: Wayback Machine
+  url: https://web.archive.org/
+  status: unknown
+  categories:
+  - archiving
+  inputs:
+  - url
+  capabilities:
+  - historical-webpages
+  - page-capture
+  pricing:
+    model: free
+    free_tier: Browsing snapshots and Save Page Now.
+    paid_unlocks: []
+    price: unknown
+  account_required: 'no'
+  access_methods:
+  - online-web
+  implementation:
+  - hosted-service
+  open_source: unknown
+  geographic_scope: global
+  last_verified: null
+  metadata_reviewed: '2026-10-06'
+  verification_notes: Migrated from existing library text; current vendor pricing,
+    limits and live status have not been independently verified.
 ---
 
 # Wayback Machine
+
+> **Verification pending:** Structured details below were migrated from the existing writeup. Current pricing, limits and service status need vendor verification.
 
 | **Wayback Machine** | **Quick Overview**                                                                                                                                  |
 | ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |

@@ -1,11 +1,40 @@
 ---
-description: >-
-  Tool Description : A Reddit search and archival platform that enables
-  investigators to search historical Reddit posts, comments, deleted content,
-  user activity and subreddit data.
+description: Searching archived Reddit posts and comments.
+tool:
+  name: Arctic Shift
+  url: https://arctic-shift.photon-reddit.com/
+  status: unknown
+  categories:
+  - archiving
+  inputs:
+  - keyword
+  - reddit-username
+  - subreddit
+  capabilities:
+  - reddit-archive
+  - historical-posts
+  - historical-comments
+  pricing:
+    model: free
+    free_tier: Web archive search as documented.
+    paid_unlocks: []
+    price: unknown
+  account_required: 'no'
+  access_methods:
+  - online-web
+  implementation:
+  - hosted-service
+  open_source: unknown
+  geographic_scope: global
+  last_verified: null
+  metadata_reviewed: '2026-10-06'
+  verification_notes: Migrated from existing library text; current vendor pricing,
+    limits and live status have not been independently verified.
 ---
 
 # Arctic Shift
+
+> **Verification pending:** Structured details below were migrated from the existing writeup. Current pricing, limits and service status need vendor verification.
 
 | **Arctic Shift** | **Quick Overview**                                                                                                                                                |
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -34,7 +63,8 @@ Arctic Shift indexes large volumes of Reddit data and provides advanced search f
 
 <img src="../.gitbook/assets/unknown (410).png" alt="" height="540" width="602">
 
-Cost
+
+Cost
 
 * [x] Free
 * [ ] Partially Free

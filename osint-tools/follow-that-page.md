@@ -1,10 +1,38 @@
 ---
-description: >-
-  Tool Description : A web-monitoring service that tracks specified webpages and
-  sends notifications when changes are detected.
+description: Email alerts when a webpage changes.
+tool:
+  name: Follow That Page
+  url: https://www.followthatpage.com/
+  status: unknown
+  categories:
+  - archiving
+  inputs:
+  - url
+  capabilities:
+  - change-monitoring
+  - email-alerts
+  pricing:
+    model: freemium
+    free_tier: Basic page monitoring; exact page and polling limits need checking.
+    paid_unlocks:
+    - Pro monitoring; exact limits need checking.
+    price: unknown
+  account_required: 'yes'
+  access_methods:
+  - online-web
+  implementation:
+  - hosted-service
+  open_source: unknown
+  geographic_scope: global
+  last_verified: null
+  metadata_reviewed: '2026-10-06'
+  verification_notes: Migrated from existing library text; current vendor pricing,
+    limits and live status have not been independently verified.
 ---
 
 # Follow That Page
+
+> **Verification pending:** Structured details below were migrated from the existing writeup. Current pricing, limits and service status need vendor verification.
 
 | **Follow That Page** | **Quick Overview**                                                                                                                        |
 | -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |

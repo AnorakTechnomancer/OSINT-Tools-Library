@@ -1,10 +1,39 @@
 ---
-description: >-
-  Tool Description: File-sharing and cloud-storage platform with a public search
-  function.
+description: Finding publicly shared files.
+tool:
+  name: 4shared
+  url: https://www.4shared.com/
+  status: unknown
+  categories:
+  - archiving
+  inputs:
+  - keyword
+  - filename
+  capabilities:
+  - shared-file-search
+  - file-hosting
+  pricing:
+    model: freemium
+    free_tier: Basic discovery and free account features; download limits need checking.
+    paid_unlocks:
+    - Premium hosting/download benefits; exact limits need checking.
+    price: unknown
+  account_required: optional
+  access_methods:
+  - online-web
+  implementation:
+  - hosted-service
+  open_source: unknown
+  geographic_scope: global
+  last_verified: null
+  metadata_reviewed: '2026-10-06'
+  verification_notes: Migrated from existing library text; current vendor pricing,
+    limits and live status have not been independently verified.
 ---
 
 # 4shared
+
+> **Verification pending:** Structured details below were migrated from the existing writeup. Current pricing, limits and service status need vendor verification.
 
 | **Tool name**    | **Quick Overview**                                                                    |
 | ---------------- | ------------------------------------------------------------------------------------- |
@@ -35,7 +64,8 @@ description: >-
 
 <img src="../.gitbook/assets/unknown (555).png" alt="" height="296" width="602">
 
-**3. Open relevant files where appropriate and where available, and record the URL, filename as well as any useful identifying information. Preserve the original source and document the date/time of collection, particularly if the material may later be used as evidence.**<br>
+**3. Open relevant files where appropriate and where available, and record the URL, filename as well as any useful identifying information. Preserve the original source and document the date/time of collection, particularly if the material may later be used as evidence.**
+<br>
 
 ### Cost
 

@@ -132,3 +132,12 @@ A user should be able to answer these questions from a category page:
 6. Can I use it online, or do I need to install/run something locally?
 7. If local, is it a CLI, Python script/package, desktop app, or something else?
 8. Is the tool currently usable?
+
+## Generated comparisons and migration provenance
+
+Install dependencies with `python -m pip install -r requirements.txt`, run `python scripts/validate_tool_metadata.py`, then `python scripts/generate_category_tables.py`. CI checks the metadata and runs the generator with `--check` to reject stale tables.
+
+Opt a category into generation using `<!-- generated-tools: archiving -->` and `<!-- /generated-tools -->` markers around its comparison table. The generator selects tools by their `tool.categories` value and preserves text outside the marked block. Categories without markers remain unchanged during migration.
+
+Use `last_verified: null` and a nonempty `verification_notes` when importing existing descriptions without independently checking the vendor. `metadata_reviewed` may record the migration date, but is not a vendor verification date. Use `status: unknown` until availability is checked; `open_source: unknown` is allowed when licensing has not been established. Do not treat a free trial as a permanent free tier. The Access field may cover different operations: explain when a CLI only verifies evidence while an extension creates captures.
+

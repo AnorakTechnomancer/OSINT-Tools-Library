@@ -1,10 +1,38 @@
 ---
-description: >-
-  Tool Description : A web forensics tool that captures a webpage and maps every
-  domain, resource, redirect, and third-party connection involved in loading it.
+description: Capturing a page and inspecting domains, redirects and resources.
+tool:
+  name: Lookyloo
+  url: https://lookyloo.circl.lu/capture
+  status: unknown
+  categories:
+  - archiving
+  inputs:
+  - url
+  capabilities:
+  - page-capture
+  - redirect-analysis
+  - resource-analysis
+  pricing:
+    model: free
+    free_tier: Public web capture and resource visualisation.
+    paid_unlocks: []
+    price: unknown
+  account_required: 'no'
+  access_methods:
+  - online-web
+  implementation:
+  - hosted-service
+  open_source: true
+  geographic_scope: global
+  last_verified: null
+  metadata_reviewed: '2026-10-06'
+  verification_notes: Migrated from existing library text; current vendor pricing,
+    limits and live status have not been independently verified.
 ---
 
 # Lookyloo
+
+> **Verification pending:** Structured details below were migrated from the existing writeup. Current pricing, limits and service status need vendor verification.
 
 | **Lookyloo**     | **Quick Overview**                                                                                                                                                                  |
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

@@ -1,10 +1,41 @@
 ---
-description: >-
-  Tool Description : A web-based tool that captures and preserves online content
-  as verifiable digital evidence.
+description: Capturing URLs as timestamped, verifiable evidence packages.
+tool:
+  name: GetProofAnchor
+  url: https://getproofanchor.com/
+  status: unknown
+  categories:
+  - archiving
+  inputs:
+  - url
+  - proof-package
+  capabilities:
+  - evidence-capture
+  - hash-verification
+  - timestamping
+  pricing:
+    model: paid
+    free_tier: Public proof verification; trial availability needs checking.
+    paid_unlocks:
+    - Creating and managing captures
+    - Assisted Capture
+    price: unknown
+  account_required: 'yes'
+  access_methods:
+  - online-web
+  implementation:
+  - hosted-service
+  open_source: unknown
+  geographic_scope: global
+  last_verified: null
+  metadata_reviewed: '2026-10-06'
+  verification_notes: Migrated from existing library text; current vendor pricing,
+    limits and live status have not been independently verified.
 ---
 
 # GetProofAnchor
+
+> **Verification pending:** Structured details below were migrated from the existing writeup. Current pricing, limits and service status need vendor verification.
 
 | **GetProofAnchor** | **Quick Overview**                                                                                                                                                                                        |
 | ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

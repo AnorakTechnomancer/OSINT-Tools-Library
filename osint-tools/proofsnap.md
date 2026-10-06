@@ -1,10 +1,45 @@
 ---
-description: >-
-  Tool Description : A browser extension that captures a live web page from the
-  rendering browser and seals it as a verifiable archive.
+description: Preserving browser-rendered pages as verifiable evidence.
+tool:
+  name: ProofSnap
+  url: https://getproofsnap.com/
+  status: unknown
+  categories:
+  - archiving
+  inputs:
+  - webpage
+  - proof-package
+  capabilities:
+  - evidence-capture
+  - hash-verification
+  - timestamping
+  - warc-export
+  pricing:
+    model: paid
+    free_tier: Web/CLI package verification without an account; capture trial needs
+      checking.
+    paid_unlocks:
+    - Captures via subscription or credits
+    - Forensic WARC mode on higher subscription tiers
+    price: unknown
+  account_required: 'yes'
+  access_methods:
+  - browser-extension
+  - online-web
+  - cli
+  implementation:
+  - unknown
+  open_source: unknown
+  geographic_scope: global
+  last_verified: null
+  metadata_reviewed: '2026-10-06'
+  verification_notes: Migrated from existing library text; current vendor pricing,
+    limits and live status have not been independently verified.
 ---
 
 # ProofSnap
+
+> **Verification pending:** Structured details below were migrated from the existing writeup. Current pricing, limits and service status need vendor verification.
 
 | **ProofSnap**    | **Quick Overview**                                                                                                    |
 | ---------------- | --------------------------------------------------------------------------------------------------------------------- |

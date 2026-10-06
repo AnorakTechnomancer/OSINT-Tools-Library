@@ -22,9 +22,10 @@ tool:
     - online-web
   implementation:
     - hosted-service
-  open_source: false
+  open_source: unknown
   geographic_scope: global
-  last_verified: YYYY-MM-DD
+  last_verified: null
+  verification_notes: Not yet independently verified.
 ---
 
 # Tool Name

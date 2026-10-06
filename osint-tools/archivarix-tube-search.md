@@ -1,10 +1,41 @@
 ---
-description: >-
-  Tool Description: A free OSINT tool for discovering historical versions of
-  YouTube videos using archived snapshots from archive data.
+description: Recovering deleted YouTube metadata, thumbnails and subtitles.
+tool:
+  name: Archivarix Tube Search
+  url: https://tube.archivarix.net/
+  status: unknown
+  categories:
+  - archiving
+  inputs:
+  - youtube-url
+  - video-id
+  - keyword
+  capabilities:
+  - deleted-video-metadata
+  - thumbnails
+  - subtitles
+  pricing:
+    model: freemium
+    free_tier: Partial search access; exact result limits are not documented.
+    paid_unlocks:
+    - Full functionality; feature split and current prices need checking.
+    price: unknown
+  account_required: 'no'
+  access_methods:
+  - online-web
+  implementation:
+  - hosted-service
+  open_source: unknown
+  geographic_scope: global
+  last_verified: null
+  metadata_reviewed: '2026-10-06'
+  verification_notes: Migrated from existing library text; current vendor pricing,
+    limits and live status have not been independently verified.
 ---
 
 # Archivarix Tube Search
+
+> **Verification pending:** Structured details below were migrated from the existing writeup. Current pricing, limits and service status need vendor verification.
 
 | **Archivarix Tube Search** | **Quick Overview**                                                                                     |
 | -------------------------- | ------------------------------------------------------------------------------------------------------ |

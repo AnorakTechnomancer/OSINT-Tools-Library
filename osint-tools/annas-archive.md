@@ -1,10 +1,41 @@
 ---
-description: >-
-  Tool Description : Shadow library search engine aggregating books, papers, and
-  digital texts.
+description: Books, papers and hard-to-find texts.
+tool:
+  name: Anna's Archive
+  url: https://annas-archive.gl/
+  status: unknown
+  categories:
+  - archiving
+  inputs:
+  - title
+  - author
+  - isbn
+  - keyword
+  capabilities:
+  - document-discovery
+  pricing:
+    model: unknown
+    free_tier: Search and mirror links are described as free; current download tiers
+      need checking.
+    paid_unlocks:
+    - Current membership/download benefits not verified.
+    price: unknown
+  account_required: 'no'
+  access_methods:
+  - online-web
+  implementation:
+  - hosted-service
+  open_source: unknown
+  geographic_scope: global
+  last_verified: null
+  metadata_reviewed: '2026-10-06'
+  verification_notes: Migrated from existing library text; current vendor pricing,
+    limits and live status have not been independently verified.
 ---
 
 # Anna's Archive
+
+> **Verification pending:** Structured details below were migrated from the existing writeup. Current pricing, limits and service status need vendor verification.
 
 | **Anna’s Archive** | **Quick Overview**                                                                                                                  |
 | ------------------ | ----------------------------------------------------------------------------------------------------------------------------------- |
