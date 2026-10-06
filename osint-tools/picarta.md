@@ -1,7 +1,33 @@
 ---
 description: >-
-  Tool Description : AI-powered geolocation tool that finds where a photo was
-  taken using visual analysis.
+  Tool Description : AI-powered geolocation tool that finds where a photo was taken using visual analysis.
+tool:
+  name: Picarta
+  url: https://picarta.ai/
+  status: active
+  categories:
+    - geolocation
+    - image
+  inputs:
+    - image
+  capabilities:
+    - ai-image-geolocation
+    - candidate-location
+    - confidence-scoring
+  pricing:
+    model: freemium
+    free_tier: Limited image geolocation searches.
+    paid_unlocks:
+      - extended usage
+    price: unknown
+  account_required: yes
+  access_methods:
+    - online-web
+  implementation:
+    - hosted-service
+  open_source: false
+  geographic_scope: global
+  last_verified: 2026-10-06
 ---
 
 # Picarta
