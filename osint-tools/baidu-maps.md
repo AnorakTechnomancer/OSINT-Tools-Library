@@ -1,8 +1,34 @@
 ---
 description: >-
   Tool Description : A Chinese digital mapping and navigation platform providing
-  maps, satellite imagery, street-level views, traffic data, and route planning
-  across China and parts of the world.
+tool:
+  name: Baidu Maps
+  url: https://map.baidu.com/
+  status: active
+  categories:
+    - geolocation
+  inputs:
+    - place
+    - address
+    - coordinates
+  capabilities:
+    - mapping
+    - satellite-imagery
+    - street-level-imagery
+    - routing
+  pricing:
+    model: free
+    free_tier: Core mapping, imagery, and routing.
+    paid_unlocks: []
+    price: free
+  account_required: no
+  access_methods:
+    - online-web
+  implementation:
+    - hosted-service
+  open_source: false
+  geographic_scope: global
+  last_verified: 2026-10-06
 ---
 
 # Baidu Maps
