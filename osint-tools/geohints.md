@@ -1,7 +1,31 @@
 ---
 description: >-
   Tool Description : A visual database of a large number of landmarks and their
-  respective geographic locations.
+tool:
+  name: GeoHints
+  url: https://geohints.com/
+  status: active
+  categories:
+    - geolocation
+  inputs:
+    - visual-clues
+  capabilities:
+    - visual-geolocation
+    - infrastructure-clues
+    - environmental-clues
+  pricing:
+    model: free
+    free_tier: Full reference site.
+    paid_unlocks: []
+    price: free
+  account_required: no
+  access_methods:
+    - online-web
+  implementation:
+    - hosted-service
+  open_source: false
+  geographic_scope: global
+  last_verified: 2026-10-06
 ---
 
 # GeoHints
