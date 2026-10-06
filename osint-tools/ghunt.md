@@ -1,7 +1,32 @@
 ---
 description: >-
-  Tool Description : A command line tool that obtains information about Google
-  accounts.
+  A free command-line OSINT tool for gathering publicly accessible information
+  associated with Google accounts.
+tool:
+  name: GHunt
+  url: https://github.com/mxrch/GHunt
+  status: degraded
+  categories:
+    - email
+    - people
+  inputs:
+    - google-account-email
+  capabilities:
+    - google-profile
+    - youtube-association
+    - maps-activity
+    - account-enrichment
+  pricing:
+    model: free
+    free_tier: Full open-source tool.
+    paid_unlocks: []
+    price: free
+  account_required: third-party
+  platform:
+    - cli
+  open_source: true
+  geographic_scope: global
+  last_verified: 2026-10-06
 ---
 
 # GHunt
