@@ -1,7 +1,34 @@
 ---
 description: >-
-  Tool Description : A free satellite imagery platform that provides access to
-  Earth observation data from the Copernicus Programme.
+  Tool Description : A free satellite imagery platform that provides access to Earth observation data from the Copernicus Programme.
+tool:
+  name: Copernicus Browser
+  url: https://browser.dataspace.copernicus.eu/
+  status: active
+  categories:
+    - geolocation
+    - satellite-imagery
+  inputs:
+    - location
+    - date
+    - satellite-dataset
+  capabilities:
+    - satellite-imagery
+    - earth-observation
+    - change-detection
+  pricing:
+    model: free
+    free_tier: Basic imagery viewing and analysis.
+    paid_unlocks: []
+    price: free
+  account_required: optional
+  access_methods:
+    - online-web
+  implementation:
+    - hosted-service
+  open_source: false
+  geographic_scope: global
+  last_verified: 2026-10-06
 ---
 
 # Copernicus Browser
