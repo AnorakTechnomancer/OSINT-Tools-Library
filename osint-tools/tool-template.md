@@ -18,8 +18,10 @@ tool:
       - Describe the important capabilities that require payment.
     price: unknown
   account_required: optional
-  platform:
-    - web
+  access_methods:
+    - online-web
+  implementation:
+    - hosted-service
   open_source: false
   geographic_scope: global
   last_verified: YYYY-MM-DD
@@ -39,7 +41,8 @@ tool:
 | Free access | Describe exactly what works without payment. |
 | Paid unlocks | Describe the meaningful features behind payment. |
 | Account required | No / Yes / Optional / Third-party account |
-| Platform | Web / CLI / API / browser extension / mobile |
+| Access method | Online/Web / CLI / Python script/package / desktop app / browser extension / mobile / API |
+| Implementation | Hosted service / Python / JavaScript / Go / Rust / native app / unknown |
 | Open source | Yes / No |
 | Geographic scope | Global / country / region |
 | Last verified | YYYY-MM-DD |
