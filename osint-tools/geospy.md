@@ -1,8 +1,32 @@
 ---
 description: >-
-  Tool Description : An AI-powered geolocation tool that analyses images to
-  estimate where they were taken by examining visual features like architecture,
-  terrain, and environmental details.
+  Tool Description : An AI-powered geolocation tool that analyses images to estimate where they were taken by examining visual features like architecture, terrain, and environmental details.
+tool:
+  name: GeoSpy
+  url: https://geospy.ai/
+  status: active
+  categories:
+    - geolocation
+    - image
+  inputs:
+    - image
+  capabilities:
+    - ai-image-geolocation
+    - candidate-location
+  pricing:
+    model: freemium
+    free_tier: Limited image geolocation searches.
+    paid_unlocks:
+      - additional usage
+    price: unknown
+  account_required: yes
+  access_methods:
+    - online-web
+  implementation:
+    - hosted-service
+  open_source: false
+  geographic_scope: global
+  last_verified: 2026-10-06
 ---
 
 # GeoSpy
