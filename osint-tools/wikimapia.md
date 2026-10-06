@@ -1,7 +1,31 @@
 ---
 description: >-
   Tool Description : A collaborative online map that combines satellite imagery
-  with user-added information about places around the world.
+tool:
+  name: Wikimapia
+  url: https://wikimapia.org/
+  status: active
+  categories:
+    - geolocation
+  inputs:
+    - location
+  capabilities:
+    - collaborative-mapping
+    - place-labels
+    - satellite-imagery
+  pricing:
+    model: free
+    free_tier: Map browsing and user-contributed place information.
+    paid_unlocks: []
+    price: free
+  account_required: optional
+  access_methods:
+    - online-web
+  implementation:
+    - hosted-service
+  open_source: false
+  geographic_scope: global
+  last_verified: 2026-10-06
 ---
 
 # Wikimapia
