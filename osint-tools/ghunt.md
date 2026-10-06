@@ -22,8 +22,11 @@ tool:
     paid_unlocks: []
     price: free
   account_required: third-party
-  platform:
+  access_methods:
     - cli
+    - python-script
+  implementation:
+    - python
   open_source: true
   geographic_scope: global
   last_verified: 2026-10-06
