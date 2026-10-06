@@ -1,8 +1,34 @@
 ---
 description: >-
   Tool Description : A digital mapping and navigation service (by Apple)
-  providing maps, satellite imagery, street-level views, directions, traffic
-  data, and business listings worldwide.
+tool:
+  name: Apple Maps
+  url: https://maps.apple.com/
+  status: active
+  categories:
+    - geolocation
+  inputs:
+    - place
+    - address
+    - business
+  capabilities:
+    - mapping
+    - satellite-imagery
+    - street-level-imagery
+    - routing
+  pricing:
+    model: free
+    free_tier: Core mapping, imagery, and routing.
+    paid_unlocks: []
+    price: free
+  account_required: no
+  access_methods:
+    - online-web
+  implementation:
+    - hosted-service
+  open_source: false
+  geographic_scope: global
+  last_verified: 2026-10-06
 ---
 
 # Apple Maps
