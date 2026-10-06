@@ -1,7 +1,31 @@
 ---
 description: >-
   Tool Description : An interactive mapping platform that visualises critical
-  infrastructure worldwide using data primarily sourced from OpenStreetMap.
+tool:
+  name: Open Infrastructure Map
+  url: https://openinframap.org/
+  status: active
+  categories:
+    - geolocation
+  inputs:
+    - location
+  capabilities:
+    - infrastructure-mapping
+    - power-infrastructure
+    - telecom-infrastructure
+  pricing:
+    model: free
+    free_tier: Full interactive map.
+    paid_unlocks: []
+    price: free
+  account_required: no
+  access_methods:
+    - online-web
+  implementation:
+    - hosted-service
+  open_source: false
+  geographic_scope: global
+  last_verified: 2026-10-06
 ---
 
 # Open Infrastructure Map
