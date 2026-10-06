@@ -25,8 +25,10 @@ tool:
       - additional platform information
     price: unknown
   account_required: optional
-  platform:
-    - web
+  access_methods:
+    - online-web
+  implementation:
+    - hosted-service
   open_source: false
   geographic_scope: global
   last_verified: 2026-10-06
