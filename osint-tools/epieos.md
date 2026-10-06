@@ -1,7 +1,35 @@
 ---
 description: >-
-  Tool Description : A powerful OSINT tool that lets you investigate email
-  addresses and phone numbers.
+  A fast email and phone OSINT tool for finding linked accounts, breach exposure,
+  and other public identity clues.
+tool:
+  name: Epieos
+  url: https://epieos.com/
+  status: active
+  categories:
+    - email
+    - phone
+  inputs:
+    - email
+    - phone-number
+  capabilities:
+    - linked-accounts
+    - breach-data
+    - username-correlation
+    - profile-enrichment
+  pricing:
+    model: freemium
+    free_tier: Basic email and phone searches with limited results.
+    paid_unlocks:
+      - deeper linked-account results
+      - additional platform information
+    price: unknown
+  account_required: optional
+  platform:
+    - web
+  open_source: false
+  geographic_scope: global
+  last_verified: 2026-10-06
 ---
 
 # Epieos
