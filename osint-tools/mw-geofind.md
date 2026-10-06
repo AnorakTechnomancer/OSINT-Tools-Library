@@ -1,5 +1,34 @@
 ---
-description: 'Tool Description : Finds geotagged YouTube videos on a map.'
+description: >-
+  Tool Description : Finds geotagged YouTube videos on a map.
+tool:
+  name: MW Geofind
+  url: https://mattw.io/youtube-geofind/location
+  status: active
+  categories:
+    - geolocation
+  inputs:
+    - location
+    - radius
+    - date
+    - keyword
+  capabilities:
+    - geotagged-video
+    - youtube-search
+    - mapping
+  pricing:
+    model: free
+    free_tier: Full web tool.
+    paid_unlocks: []
+    price: free
+  account_required: no
+  access_methods:
+    - online-web
+  implementation:
+    - hosted-service
+  open_source: false
+  geographic_scope: global
+  last_verified: 2026-10-06
 ---
 
 # MW Geofind
