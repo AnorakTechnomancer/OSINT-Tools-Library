@@ -1,8 +1,51 @@
 ---
 description: >-
-  Tool Description : An all-encompassing OSINT platform that gathers and
-  correlates publicly available digital data such as emails, domains, phone
-  numbers, usernames, etc.
+  A broad OSINT enrichment platform for correlating emails, phones, usernames,
+  domains, IPs, crypto wallets, names, and images.
+tool:
+  name: OSINT Industries
+  url: https://app.osint.industries/
+  status: active
+  categories:
+    - email
+    - phone
+    - username
+    - domain
+    - network
+    - cryptocurrency
+    - image
+    - people
+  inputs:
+    - email
+    - phone-number
+    - username
+    - name
+    - domain
+    - ip-address
+    - crypto-wallet
+    - image
+  capabilities:
+    - linked-accounts
+    - breach-data
+    - profile-enrichment
+    - activity-timeline
+    - location-data
+    - facial-recognition
+    - exports
+  pricing:
+    model: paid
+    free_tier: Select-sector trials or access may be available; standard investigations require paid access.
+    paid_unlocks:
+      - full investigations
+      - exports
+      - broad cross-platform enrichment
+    price: subscription
+  account_required: yes
+  platform:
+    - web
+  open_source: false
+  geographic_scope: global
+  last_verified: 2026-10-06
 ---
 
 # OSINT Industries
